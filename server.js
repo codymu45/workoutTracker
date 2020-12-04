@@ -16,7 +16,7 @@ app.use(require("./routes/html-routes.js"));
 app.use(require("./routes/api-routes.js"));
 
 // connect to mongodb
-mongoose.connect("mongodb://localhost:27017/workout", {
+mongoose.connect("mongodb://localhost/tracker", {
   useNewUrlParser: true,
   useFindAndModify: false
 }).then(() => console.log("Connected to Mongodb"))
