@@ -1,4 +1,4 @@
-// const router = require("express").Router();
+const router = require("express").Router();
 const path = require("path");
 
 module.exports = function(app) {
@@ -15,4 +15,4 @@ app.get("/stats", (req, res) => {
 });
 };
 
-// module.exports = router;
+module.exports = router;
